@@ -1,0 +1,21 @@
+.App {
+  margin: auto;
+  user-select: none;
+}
+
+.imageZone {
+  position: relative;
+  width: 500px;
+  height: 500px;
+  border: 1px solid black;
+  user-select: none;
+  background-color: gainsboro;
+}
+
+.crop {
+  box-sizing: border-box;
+  position: absolute;
+  z-index: 99;
+  border: 2px dashed white;
+  cursor: move;
+}
